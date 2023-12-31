@@ -39,11 +39,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp GRAVE  &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                             &kp N6     &kp N7     &kp N8        &kp N9     &kp N0     &kp BSPC
-&kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE                          &kp LEFT   &kp DOWN   &kp UP_ARROW  &kp RIGHT  &kp MINUS  &kp EQUAL
-&kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE                          &kp SPACE  &kp SPACE  &kp SPACE     &kp SPACE  &kp SPACE  &kp SPACE
-&kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE    &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE     &kp SPACE  &kp SPACE  &kp SPACE
-                                 &trans     &trans     &trans     &trans       &trans     &trans     &trans     &trans
+&kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                          &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp BSPC
+&kp GRAVE      &kp N1        &kp N2      &kp N3         &kp N4        &kp N5                                 &kp N6         &kp N7        &kp N8        &kp N9        &kp N0        &kp BSPC
+&kp SPACE      &kp SPACE     &kp SPACE   &kp SPACE      &kp SPACE     &kp SPACE                              &kp LEFT       &kp DOWN      &kp UP_ARROW  &kp RIGHT     &kp SPACE     &kp SPACE
+&kp SPACE      &kp SPACE     &kp SPACE   &kp SPACE      &kp SPACE     &kp SPACE      &kp SPACE    &kp SPACE  &kp SPACE      &kp SPACE     &kp SPACE     &kp SPACE     &kp SPACE     &kp SPACE
+                                         &trans         &trans        &trans         &trans       &trans     &trans         &trans        &trans
             >;
         };
 
